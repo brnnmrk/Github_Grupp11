@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.EmbeddedId"/>
+<fullyQualifiedTypeName name="javax.persistence.UniqueConstraint"/>
+<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="eventPlanner.ejb.Event"/>
+<fullyQualifiedTypeName name="eventPlanner.ejb.User"/>
+<fullyQualifiedTypeName name="javax.ejb.LocalBean"/>
+<fullyQualifiedTypeName name="eventPlanner.eao.eventEAOLocal"/>
+<fullyQualifiedTypeName name="eventPlanner.eao.userEAOLocal"/>
+<fullyQualifiedTypeName name="javax.ejb.EJB"/>
+</qualifiedTypeNameHistroy>

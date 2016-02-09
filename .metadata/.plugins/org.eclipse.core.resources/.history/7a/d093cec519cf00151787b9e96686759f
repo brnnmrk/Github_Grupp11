@@ -1,0 +1,55 @@
+package eventPlanner.ejb;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Event") 
+public class Event {
+	
+	private int eventID;
+	private String location;
+	private int eventTime;
+	private int zipCode;
+	private int openSlots;
+	private String note;
+	
+	public int getEventID() {
+		return eventID;
+	}
+	public void setEventID(int eventID) {
+		this.eventID = eventID;
+	}
+	public String getLocation() {
+		return location;
+	}
+	public void setLocation(String location) {
+		this.location = location;
+	}
+	public int getEventTime() {
+		return eventTime;
+	}
+	public void setEventTime(int eventTime) {
+		this.eventTime = eventTime;
+	}
+	public int getZipCode() {
+		return zipCode;
+	}
+	public void setZipCode(int zipCode) {
+		this.zipCode = zipCode;
+	}
+	public int getOpenSlots() {
+		return openSlots;
+	}
+	public void setOpenSlots(int openSlots) {
+		this.openSlots = openSlots;
+	}
+	public String getNote() {
+		return note;
+	}
+	public void setNote(String note) {
+		this.note = note;
+	}
+	
+
+}

@@ -1,0 +1,35 @@
+package eventPlanner.ejb;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name="EventAttendee")
+public class EventAttendee {
+	
+	private int eventID;
+	private int userID;
+	private int amount;
+	
+	public int getEventID() {
+		return eventID;
+	}
+	public void setEventID(int eventID) {
+		this.eventID = eventID;
+	}
+	public int getUserID() {
+		return userID;
+	}
+	public void setUserID(int userID) {
+		this.userID = userID;
+	}
+	public int getAmount() {
+		return amount;
+	}
+	public void setAmount(int amount) {
+		this.amount = amount;
+	}
+	
+
+}

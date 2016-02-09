@@ -1,0 +1,22 @@
+package eventPlanner.eao;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class eventPlannerEAOImpl
+ */
+
+@Stateless
+@LocalBean
+public class eventPlannerEAOImpl implements eventPlannerEAOLocal {
+
+    /**
+     * Default constructor. 
+     */
+	
+    public eventPlannerEAOImpl() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

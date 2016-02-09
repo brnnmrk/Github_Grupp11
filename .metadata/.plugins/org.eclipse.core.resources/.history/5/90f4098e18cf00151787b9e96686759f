@@ -1,0 +1,5 @@
+package eventPlanner.ejb;
+
+public class User {
+
+}

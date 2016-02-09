@@ -1,0 +1,27 @@
+package eventPlanner.eao;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+/**
+ * Session Bean implementation class eventPlannerEAOImpl
+ */
+
+@Stateless
+@LocalBean
+public class eventEAOImpl implements eventEAOLocal {
+
+	@PersistenceContext(unitName = "LabEJBSql")
+	private EntityManager em;
+	
+    /**
+     * Default constructor. 
+     */
+	
+    public eventEAOImpl() {
+        // TODO Auto-generated constructor stub
+    }
+
+}
