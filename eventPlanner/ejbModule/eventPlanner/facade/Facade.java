@@ -7,9 +7,7 @@ import javax.ejb.Stateless;
 import eventPlanner.eao.eventEAOLocal;
 import eventPlanner.eao.userEAOLocal;
 
-/**
- * Session Bean implementation class Facade
- */
+
 
 @Stateless
 @LocalBean
@@ -22,7 +20,7 @@ public class Facade implements FacadeRemote, FacadeLocal {
 	
 	
     public Facade() {
-        // TODO Auto-generated constructor stub
+  
     }
     
     //public Event findByUserId(String userId) {

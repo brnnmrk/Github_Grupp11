@@ -17,7 +17,7 @@ public class userEAOImpl implements userEAOLocal {
 	private EntityManager em;
 
     public userEAOImpl() {
-        // TODO Auto-generated constructor stub
+       
     }
     
     public User createUser(User user) {
