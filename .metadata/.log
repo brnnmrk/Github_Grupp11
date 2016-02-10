@@ -332,3 +332,9 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.ui 2 2 2016-02-09 13:34:08.436
 !MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-02-10 12:57:06.665
+!MESSAGE cacheFile=file:/Users/brnnmrk/Downloads/Eclipse.app/Contents/MacOS/file:/Users/brnnmrk/Downloads/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.core.resources 4 274 2016-02-10 14:04:02.880
+!MESSAGE Could not set the project description for 'eventPlannerEAR' because the project description file (.project) is out of sync with the file system.
