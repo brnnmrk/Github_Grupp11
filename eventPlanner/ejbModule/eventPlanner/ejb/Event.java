@@ -20,6 +20,7 @@ public class Event implements Serializable {
 	private int openSlots;
 	private String note;
 	private User user;
+	
 
 	@Id
 
