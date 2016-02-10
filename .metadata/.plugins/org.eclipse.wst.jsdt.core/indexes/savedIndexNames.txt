@@ -1,3 +1,13 @@
+<<<<<<< Updated upstream
 INDEX VERSION 1.3+/Users/brnnmrk/GithubWorkspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
 4143529841.index
 484783816.index
+=======
+INDEX VERSION 1.3+/Users/danielketabchi/Documents/Github_Grupp11/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+705493722.index
+15892255.index
+4157070515.index
+3353316169.index
+1231184624.index
+4143529841.index
+>>>>>>> Stashed changes
