@@ -5,5 +5,12 @@
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="eventPlannerClient.war" deploy-path="/" handle="module:/resource/eventPlannerClient/eventPlannerClient">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eventPlannerClient.war" deploy-path="/" handle="module:/resource/eventPlannerClient/eventPlannerClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>

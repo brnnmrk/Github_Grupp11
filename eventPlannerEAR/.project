@@ -4,7 +4,6 @@
 	<comment></comment>
 	<projects>
 		<project>eventPlanner</project>
-		<project>eventPlannerClient</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
